@@ -4,7 +4,7 @@ import torchvision
 from torchvision.models.detection import FasterRCNN
 from torchvision.models.detection.rpn import AnchorGenerator
 from torchvision.ops import MultiScaleRoIAlign
-
+#comment
 class PestDetector(nn.Module):
     def __init__(self, num_classes):
         super().__init__()
